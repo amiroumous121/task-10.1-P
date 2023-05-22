@@ -1,0 +1,1561 @@
+timestamp,severity,type,log_name,text_payload,proto_payload,json_payload
+2023-05-22T22:21:35.253154Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/gcp-controller-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:gcp-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/gcp-controller-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""gcp-controller-manager/v0.0.0 (linux/amd64) kubernetes/$Format/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:34.959783Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-controller-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:cloud-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-controller-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""cloud-controller-manager/v1.25.5 (linux/amd64) kubernetes/9ee47ba/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:35.419918Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:kube-scheduler"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""kube-scheduler/v1.25.8 (linux/amd64) kubernetes/f117e29/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:35.938719Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/addon-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:addon-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/addon-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""addon-manager/1.23-v0.10 (706681b)""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:34.968779Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/managed-certificate-controller"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:managed-certificate-controller"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/managed-certificate-controller"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""managed-certificate-controller/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:34.042524Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:kube-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""kube-controller-manager/v1.25.8 (linux/amd64) kubernetes/f117e29/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:35.257430Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/ingress-gce-lock"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:l7-lb-controller"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/ingress-gce-lock"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.3"",
+      ""caller_supplied_user_agent"": ""glbc/v0.0.0 (linux/amd64) kubernetes/$Format/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:36.007534Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/external-resizer-pd-csi-storage-gke-io"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:pdcsi-controller"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/external-resizer-pd-csi-storage-gke-io"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.3"",
+      ""caller_supplied_user_agent"": ""csi-resizer/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:36.968453Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-controller-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:cloud-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-controller-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""cloud-controller-manager/v1.25.5 (linux/amd64) kubernetes/9ee47ba/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:37.268378Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/ingress-gce-lock"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:l7-lb-controller"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/ingress-gce-lock"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.3"",
+      ""caller_supplied_user_agent"": ""glbc/v0.0.0 (linux/amd64) kubernetes/$Format/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:37.117623Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cluster-autoscaler"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:cluster-autoscaler"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cluster-autoscaler"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.3"",
+      ""caller_supplied_user_agent"": ""cluster-autoscaler/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:37.234664Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/vpa-recommender"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:vpa-recommender"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/vpa-recommender"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.3"",
+      ""caller_supplied_user_agent"": ""vpa-recommender/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:38.982834Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-provider-extraction-migration-pt1"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:cloud-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-provider-extraction-migration-pt1"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""cloud-controller-manager/v1.25.5 (linux/amd64) kubernetes/9ee47ba/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:38.977835Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-controller-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:cloud-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-controller-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""cloud-controller-manager/v1.25.5 (linux/amd64) kubernetes/9ee47ba/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:28.339323Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.core.v1.configmaps.update"",
+    ""resource_name"": ""core/v1/namespaces/kube-system/configmaps/cluster-autoscaler-status"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:cluster-autoscaler"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""core/v1/namespaces/kube-system/configmaps/cluster-autoscaler-status"",
+      ""permission"": ""io.k8s.core.v1.configmaps.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.3"",
+      ""caller_supplied_user_agent"": ""cluster-autoscaler/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:34.494808Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/snapshot-controller-leader"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:snapshot-controller"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/snapshot-controller-leader"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.3"",
+      ""caller_supplied_user_agent"": ""snapshot-controller/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:40.990720Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-provider-extraction-migration-pt1"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:cloud-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-provider-extraction-migration-pt1"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""cloud-controller-manager/v1.25.5 (linux/amd64) kubernetes/9ee47ba/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:41.318032Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/gcp-controller-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:gcp-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/gcp-controller-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""gcp-controller-manager/v0.0.0 (linux/amd64) kubernetes/$Format/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:42.078397Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:kube-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""kube-controller-manager/v1.25.8 (linux/amd64) kubernetes/f117e29/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:29.479430Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/snapshot-controller-leader"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:snapshot-controller"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/snapshot-controller-leader"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.3"",
+      ""caller_supplied_user_agent"": ""snapshot-controller/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:39.505013Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/snapshot-controller-leader"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:snapshot-controller"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/snapshot-controller-leader"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.3"",
+      ""caller_supplied_user_agent"": ""snapshot-controller/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:41.257333Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/vpa-recommender"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:vpa-recommender"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/vpa-recommender"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.3"",
+      ""caller_supplied_user_agent"": ""vpa-recommender/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:40.068917Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:kube-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""kube-controller-manager/v1.25.8 (linux/amd64) kubernetes/f117e29/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:40.985594Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-controller-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:cloud-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-controller-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""cloud-controller-manager/v1.25.5 (linux/amd64) kubernetes/9ee47ba/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:40.333941Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/gke-common-webhook-lock"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:gke-common-webhooks"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/gke-common-webhook-lock"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.3"",
+      ""caller_supplied_user_agent"": ""gke-common-webhooks/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:41.248913Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.core.v1.endpoints.update"",
+    ""resource_name"": ""core/v1/namespaces/kube-system/endpoints/vpa-recommender"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:vpa-recommender"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""core/v1/namespaces/kube-system/endpoints/vpa-recommender"",
+      ""permission"": ""io.k8s.core.v1.endpoints.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.3"",
+      ""caller_supplied_user_agent"": ""vpa-recommender/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+      ""@type"": ""core.k8s.io/v1.Endpoints"",
+      ""apiVersion"": ""v1"",
+      ""kind"": ""Endpoints"",
+      ""metadata"": {
+        ""annotations"": {
+          ""control-plane.alpha.kubernetes.io/leader"": ""{\""holderIdentity\"":\""gke-f64aecb906704d81ac3d-53f8-6291-vm\"",\""leaseDurationSeconds\"":30,\""acquireTime\"":\""2023-05-22T02:11:59Z\"",\""renewTime\"":\""2023-05-22T22:21:41Z\"",\""leaderTransitions\"":2}""
+        },
+        ""creationTimestamp"": ""2023-05-22T00:15:55Z"",
+        ""managedFields"": [{
+          ""apiVersion"": ""v1"",
+          ""fieldsType"": ""FieldsV1"",
+          ""fieldsV1"": {
+            ""f:metadata"": {
+              ""f:annotations"": {
+                ""."": {
+                },
+                ""f:control-plane.alpha.kubernetes.io/leader"": {
+                }
+              }
+            }
+          },
+          ""manager"": ""vpa-recommender"",
+          ""operation"": ""Update"",
+          ""time"": ""2023-05-22T22:21:37Z""
+        }],
+        ""name"": ""vpa-recommender"",
+        ""namespace"": ""kube-system"",
+        ""resourceVersion"": ""782623"",
+        ""uid"": ""e2fa466d-d6b4-4c4a-a6b4-9d52d9b7c24f""
+      }
+    },
+    ""response"": {
+      ""@type"": ""core.k8s.io/v1.Endpoints"",
+      ""apiVersion"": ""v1"",
+      ""kind"": ""Endpoints"",
+      ""metadata"": {
+        ""annotations"": {
+          ""control-plane.alpha.kubernetes.io/leader"": ""{\""holderIdentity\"":\""gke-f64aecb906704d81ac3d-53f8-6291-vm\"",\""leaseDurationSeconds\"":30,\""acquireTime\"":\""2023-05-22T02:11:59Z\"",\""renewTime\"":\""2023-05-22T22:21:41Z\"",\""leaderTransitions\"":2}""
+        },
+        ""creationTimestamp"": ""2023-05-22T00:15:55Z"",
+        ""managedFields"": [{
+          ""apiVersion"": ""v1"",
+          ""fieldsType"": ""FieldsV1"",
+          ""fieldsV1"": {
+            ""f:metadata"": {
+              ""f:annotations"": {
+                ""."": {
+                },
+                ""f:control-plane.alpha.kubernetes.io/leader"": {
+                }
+              }
+            }
+          },
+          ""manager"": ""vpa-recommender"",
+          ""operation"": ""Update"",
+          ""time"": ""2023-05-22T22:21:41Z""
+        }],
+        ""name"": ""vpa-recommender"",
+        ""namespace"": ""kube-system"",
+        ""resourceVersion"": ""782664"",
+        ""uid"": ""e2fa466d-d6b4-4c4a-a6b4-9d52d9b7c24f""
+      }
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:42.995383Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-controller-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:cloud-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-controller-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""cloud-controller-manager/v1.25.5 (linux/amd64) kubernetes/9ee47ba/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:42.359673Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/gke-common-webhook-lock"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:gke-common-webhooks"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/gke-common-webhook-lock"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.3"",
+      ""caller_supplied_user_agent"": ""gke-common-webhooks/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:43.006362Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/managed-certificate-controller"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:managed-certificate-controller"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/managed-certificate-controller"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""managed-certificate-controller/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:43.148252Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cluster-autoscaler"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:cluster-autoscaler"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cluster-autoscaler"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.3"",
+      ""caller_supplied_user_agent"": ""cluster-autoscaler/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:44.381127Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/gke-common-webhook-lock"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:gke-common-webhooks"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/gke-common-webhook-lock"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.3"",
+      ""caller_supplied_user_agent"": ""gke-common-webhooks/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:45.016258Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/managed-certificate-controller"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:managed-certificate-controller"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/managed-certificate-controller"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""managed-certificate-controller/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:45.354743Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/gcp-controller-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:gcp-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/gcp-controller-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""gcp-controller-manager/v0.0.0 (linux/amd64) kubernetes/$Format/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:46.098284Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:kube-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""kube-controller-manager/v1.25.8 (linux/amd64) kubernetes/f117e29/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:49.027240Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-provider-extraction-migration-pt1"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:cloud-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-provider-extraction-migration-pt1"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""cloud-controller-manager/v1.25.5 (linux/amd64) kubernetes/9ee47ba/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:49.533258Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/snapshot-controller-leader"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:snapshot-controller"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/snapshot-controller-leader"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.3"",
+      ""caller_supplied_user_agent"": ""snapshot-controller/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:49.022747Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-controller-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:cloud-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-controller-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""cloud-controller-manager/v1.25.5 (linux/amd64) kubernetes/9ee47ba/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:48.702841Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-node-lease/leases/gke-my-node-app-default-pool-fa1736de-19g8"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:node:gke-my-node-app-default-pool-fa1736de-19g8"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-node-lease/leases/gke-my-node-app-default-pool-fa1736de-19g8"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""192.168.0.2"",
+      ""caller_supplied_user_agent"": ""kubelet/v1.25.8 (linux/amd64) kubernetes/f117e29""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:51.037830Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-provider-extraction-migration-pt1"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:cloud-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-provider-extraction-migration-pt1"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""cloud-controller-manager/v1.25.5 (linux/amd64) kubernetes/9ee47ba/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:51.042260Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/managed-certificate-controller"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:managed-certificate-controller"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/managed-certificate-controller"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""managed-certificate-controller/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:51.532533Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-provider-extraction-migration-pt2"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:kube-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-provider-extraction-migration-pt2"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""kube-controller-manager/v1.25.8 (linux/amd64) kubernetes/f117e29/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:53.048338Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-provider-extraction-migration-pt1"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:cloud-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-provider-extraction-migration-pt1"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""cloud-controller-manager/v1.25.5 (linux/amd64) kubernetes/9ee47ba/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:53.044966Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-controller-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:cloud-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-controller-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""cloud-controller-manager/v1.25.5 (linux/amd64) kubernetes/9ee47ba/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:54.135961Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:kube-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""kube-controller-manager/v1.25.8 (linux/amd64) kubernetes/f117e29/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:53.432171Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/gcp-controller-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:gcp-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/gcp-controller-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""gcp-controller-manager/v0.0.0 (linux/amd64) kubernetes/$Format/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:53.558934Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:kube-scheduler"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/kube-scheduler"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""kube-scheduler/v1.25.8 (linux/amd64) kubernetes/f117e29/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:53.542463Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-provider-extraction-migration-pt2"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:kube-controller-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/cloud-provider-extraction-migration-pt2"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""kube-controller-manager/v1.25.8 (linux/amd64) kubernetes/f117e29/leader-election""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:42.727633Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/external-attacher-leader-pd-csi-storage-gke-io"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:pdcsi-controller"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/external-attacher-leader-pd-csi-storage-gke-io"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""csi-attacher/v0.0.0 (linux/amd64) kubernetes/$Format""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:50.107861Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.core.v1.configmaps.update"",
+    ""resource_name"": ""core/v1/namespaces/kube-system/configmaps/clustermetrics"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:clustermetrics"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""core/v1/namespaces/kube-system/configmaps/clustermetrics"",
+      ""permission"": ""io.k8s.core.v1.configmaps.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""clustermetrics""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
+2023-05-22T22:21:50.005034Z,DEFAULT,k8s_cluster,projects/thisislasttime/logs/cloudaudit.googleapis.com%2Factivity,,"{
+  ""type"": ""type.googleapis.com/google.cloud.audit.AuditLog"",
+  ""audit_log"": {
+    ""service_name"": ""k8s.io"",
+    ""method_name"": ""io.k8s.coordination.v1.leases.update"",
+    ""resource_name"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/addon-manager"",
+    ""resource_original_state"": {
+    },
+    ""authentication_info"": {
+      ""principal_email"": ""system:addon-manager"",
+      ""third_party_principal"": {
+      }
+    },
+    ""authorization_info"": [{
+      ""resource"": ""coordination.k8s.io/v1/namespaces/kube-system/leases/addon-manager"",
+      ""permission"": ""io.k8s.coordination.v1.leases.update"",
+      ""granted"": true
+    }],
+    ""request_metadata"": {
+      ""caller_ip"": ""172.16.0.5"",
+      ""caller_supplied_user_agent"": ""addon-manager/1.23-v0.10 (706681b)""
+    },
+    ""request"": {
+    },
+    ""response"": {
+    },
+    ""metadata"": {
+    }
+  }
+}",
